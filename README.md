@@ -6,4 +6,5 @@
 
 | assignment                         | link                                                  |
 | -----------                        | -----------                                           |
-| array-reverse                      | [array-reverse](array-reverse/array-reverse.md)                       |
+| array-reverse                      | [array-reverse](array-reverse/array-reverse.md)             |
+| array-reverse                      | [array-insert-shift](array-insert-shift/array-insert-shift.md)             |
