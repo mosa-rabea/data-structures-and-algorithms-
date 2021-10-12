@@ -16,7 +16,7 @@ Without utilizing any of the built-in methods available to your language,
 ## Whiteboard Process :
 
 
-![array-insert-shift](./image/array-insert-shift.png)
+![array-insert-shift](./image/array-insert-shift.jpg)
 
 
 
