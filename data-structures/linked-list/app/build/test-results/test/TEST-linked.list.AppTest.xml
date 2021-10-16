@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="linked.list.AppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-10-15T16:40:20" hostname="mosa-HP-250-G7-Notebook-PC" time="0.034">
+  <properties/>
+  <testcase name="linkedlistoString()" classname="linked.list.AppTest" time="0.028"/>
+  <testcase name="linkedlistincludes()" classname="linked.list.AppTest" time="0.001"/>
+  <testcase name="linkedlistinsert()" classname="linked.list.AppTest" time="0.001"/>
+  <testcase name="appHasAGreeting()" classname="linked.list.AppTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
