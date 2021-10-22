@@ -3,36 +3,36 @@ package linked.list;
 public class LinkedList<T> {
     Node<T> head;
 
-    public LinkedList(){
+    public LinkedList() {
         this.head = null;
     }
 
-    public void insert(T val){
-        Node node = new Node(val);
+    public void insert(T value) {
+        Node node = new Node(value);
         node.next = head;
         head = node;
     }
 
-    boolean includes(T value){
-        Node cur = head;
-        while (cur.next != null){
-            if(cur.val.equals(value)){
+    boolean includes(T value) {
+        Node current = head;
+        while (current.next != null) {
+            if (current.value.equals(value)) {
                 return true;
             }
-            cur = cur.next;
+            current = current.next;
         }
         return false;
     }
 
     @Override
-    public String toString(){
-        Node cur = head;
+    public String toString() {
+        Node current = head;
         String result = "";
-        while (cur != null){
-            result += "{ " + cur.val + " } -> ";
-            cur = cur.next;
+        while (current != null) {
+            result += "{ " + current.value + " } -> ";
+            current = current.next;
         }
         result += "NULL";
-        return  result;
+        return result;
     }
 }
