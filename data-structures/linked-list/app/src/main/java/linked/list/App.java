@@ -12,17 +12,14 @@ public class App {
         System.out.println(new App().getGreeting());
 
 
-        LinkedList<Integer> linkedList = new LinkedList<Integer>();
-        linkedList.insert(1);
-        linkedList.insert(4);
-        linkedList.insert(10);
-        linkedList.insert(3);
-        linkedList.insert(2);
-        linkedList.insert(11);
-        linkedList.insert(21);
+        LinkedList<String> linkedList = new LinkedList<String>();
+        linkedList.insert("a");
+        linkedList.insert("b");
+        linkedList.insert("c");
+        System.out.println( linkedList.includes("b"));
+        System.out.println( linkedList.includes("z"));
         System.out.println( linkedList.toString());
-        System.out.println( linkedList.includes(10));
-        System.out.println( linkedList.includes(6));
+
 
 
 

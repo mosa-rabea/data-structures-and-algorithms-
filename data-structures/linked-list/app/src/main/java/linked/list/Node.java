@@ -3,9 +3,9 @@ package linked.list;
 public class Node<T> {
 
     public Node next;
-    public T val ;
+    public T value ;
 
-    public Node(T val){
-        this.val = val;
+    public Node(T value){
+        this.value = value;
     }
 }

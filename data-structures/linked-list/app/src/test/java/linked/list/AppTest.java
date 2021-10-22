@@ -13,41 +13,36 @@ class AppTest {
     }
     @Test void linkedlistinsert(){
         LinkedList linkedList = new LinkedList();
-        assertEquals(null,linkedList.head ,"test the initial value of the head in the linked list without insert value");
+        assertEquals(null,linkedList.head );
 
-        linkedList.insert(4);
-        assertEquals(4,linkedList.head.val ,"test the initial value of the head in the linked list after insert value");
+        linkedList.insert(2);
+        assertEquals(2,linkedList.head.value );
 
     }
 
     @Test void linkedlistincludes() {
         LinkedList<Integer> linkedList = new LinkedList<Integer>();
         linkedList.insert(1);
-        linkedList.insert(4);
-        linkedList.insert(10);
-        linkedList.insert(3);
         linkedList.insert(2);
-        linkedList.insert(11);
-        linkedList.insert(21);
+        linkedList.insert(3);
+        linkedList.insert(4);
 
-        assertTrue(linkedList.includes(11));
-        assertFalse(linkedList.includes(5));
+
+        assertTrue(linkedList.includes(3));
+        assertFalse(linkedList.includes(7));
 
     }
 
     @Test void linkedlistoString(){
         LinkedList<Integer> linkedList = new LinkedList<Integer>();
         linkedList.insert(1);
-        linkedList.insert(4);
-        linkedList.insert(10);
-        linkedList.insert(3);
         linkedList.insert(2);
-        linkedList.insert(11);
-        linkedList.insert(21);
+        linkedList.insert(3);
 
 
-        assertEquals(21,linkedList.head.val);
-        assertEquals("{ 21 } -> { 11 } -> { 2 } -> { 3 } -> { 10 } -> { 4 } -> { 1 } -> NULL",linkedList.toString());
+
+        assertEquals(3,linkedList.head.value);
+        assertEquals("{ 3 } -> { 2 } -> { 1 } -> NULL",linkedList.toString());
 
 
     }
