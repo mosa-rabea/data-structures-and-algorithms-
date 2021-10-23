@@ -19,9 +19,10 @@ public class App {
         System.out.println( linkedList.includes("b"));
         System.out.println( linkedList.includes("z"));
         System.out.println( linkedList.toString());
-
-
-
-
+        linkedList.append("5");
+linkedList.insertBefore("5","4");
+        System.out.println( linkedList.toString());
+linkedList.insertAfter("a","3");
+        System.out.println( linkedList.toString());
     }
 }

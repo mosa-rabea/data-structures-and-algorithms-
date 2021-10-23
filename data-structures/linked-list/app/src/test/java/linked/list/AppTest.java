@@ -46,4 +46,31 @@ class AppTest {
 
 
     }
+
+
+    // cc6
+
+
+
+
+
+
+    @Test void insertBeforeTest(){
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        linkedList.insert(1);
+        linkedList.insert(2);
+        linkedList.insert(3);
+        linkedList.insertBefore(2,5);
+        assertTrue(linkedList.includes(5) , "Return true if it finds the test element");
+
+    }
+    @Test void insertAfterTest(){
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        linkedList.insert(1);
+        linkedList.insert(3);
+        linkedList.insert(2);
+        linkedList.insertBefore(1,5);
+        assertTrue(linkedList.includes(5) , "Return true if it finds the test element");
+
+    }
 }

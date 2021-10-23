@@ -5,10 +5,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fec99a8f-8ab7-4d7a-abe2-60e06d972be2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.gradle/7.2/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.gradle/7.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.gradle/7.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/bin/main/linked/list/insertions/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/bin/main/linked/list/insertions/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/bin/main/linked/list/insertions/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/bin/test/linked/list/insertions/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build/classes/java/main/linked/list/insertions/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build/classes/java/main/linked/list/insertions/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build/classes/java/main/linked/list/insertions/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build/classes/java/test/linked/list/insertions/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build/reports/tests/test/classes/linked.list.insertions.AppTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build/reports/tests/test/packages/linked.list.insertions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build/test-results/test/TEST-linked.list.insertions.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/src/main/java/linked/list/insertions/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/src/main/java/linked/list/insertions/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/src/main/java/linked/list/insertions/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/app/src/test/java/linked/list/insertions/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/insertions-output.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/insertions.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/linked-list-insertions-README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-insertions/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-kth/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-zip/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/linked/list/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/linked/list/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/linked/list/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/linked/list/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/linked/list/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/linked/list/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/test/linked/list/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/test/linked/list/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/linked/list/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/linked/list/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/linked/list/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/linked/list/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/linked/list/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/linked/list/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/test/linked/list/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/test/linked/list/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/classes/linked.list.AppTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/classes/linked.list.AppTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/packages/linked.list.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/packages/linked.list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/test-results/test/TEST-linked.list.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/test-results/test/TEST-linked.list.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/linked/list/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/linked/list/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/linked/list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/linked/list/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/linked/list/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/linked/list/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/linked/list/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/linked/list/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +105,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,7 +137,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Gradle.AppTest">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linked.list.App" />
       <module name="linked-list.app.main" />
@@ -62,6 +157,27 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;linked.list.AppTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppTest.appendTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;linked.list.AppTest.appendTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -101,6 +217,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.AppTest" />
+        <item itemvalue="Gradle.AppTest.appendTest" />
         <item itemvalue="Gradle.AppTest.linkedlistoString" />
         <item itemvalue="Application.App" />
       </list>
