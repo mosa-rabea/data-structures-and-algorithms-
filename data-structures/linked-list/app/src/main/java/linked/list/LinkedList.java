@@ -8,7 +8,7 @@ public class LinkedList<T> {
     }
 
     public void insert(T value) {
-        Node node = new Node(value);
+        Node<T> node = new Node<>(value);
         node.next = head;
         head = node;
     }
@@ -39,7 +39,7 @@ public class LinkedList<T> {
     public  void append(T value){
 
         Node pointer = head;
-        Node newNode =new Node(value);
+        Node<T> newNode =new Node<>(value);
 
 
 
@@ -63,7 +63,7 @@ public class LinkedList<T> {
             Node pointer = head;
             while (pointer.next!=null) {
                 if (pointer.next.value==value) {
-                    Node newNode = new Node((newValue));
+                    Node<T> newNode = new Node<>((newValue));
                     newNode.next = pointer.next;
                     pointer.next = newNode;
                     return;
@@ -77,7 +77,7 @@ public class LinkedList<T> {
     }
     public void insertAfter(T value,T newValue) {
 
-        Node newNode = new Node(newValue);
+        Node<T> newNode = new Node<>(newValue);
         Node pointer = head;
 
         while (pointer!=null) {
@@ -113,6 +113,29 @@ public class LinkedList<T> {
             }
         }
         return "Exception";
+    }
+
+    public LinkedList zipList(LinkedList firstList, LinkedList secondList) {
+        LinkedList linkedList = new LinkedList();
+        Node current1 = firstList.head;
+        Node current2 = secondList.head;
+
+        while (current1 != null || current2 != null) {
+            if (current1 != null && current2 != null) {
+                linkedList.append(current1.getValue());
+                linkedList.append(current2.getValue());
+
+                current1 = current1.next;
+                current2 = current2.next;
+            } else if (current1 == null) {
+                linkedList.append(current2.getValue());
+                current2 = current2.next;
+            } else if (current2 == null) {
+                linkedList.append(current1.getValue());
+                current1 = current1.next;
+            }
+        }
+        return linkedList;
     }
 
 }
