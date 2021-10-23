@@ -11,21 +11,38 @@ public class App {
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
 
+//
+//        LinkedList<String> linkedList = new LinkedList<String>();
+//        linkedList.insert("a");
+//        linkedList.insert("b");
+//        linkedList.insert("c");
+//        System.out.println( linkedList.includes("b"));
+//        System.out.println( linkedList.includes("z"));
+//        System.out.println( linkedList.toString());
+//        linkedList.append("5");
+//linkedList.insertBefore("5","4");
+//        System.out.println( linkedList.toString());
+//linkedList.insertAfter("a","3");
+//        System.out.println( linkedList.toString());
+//
+//        System.out.println(linkedList.kthFromEnd(2));
 
-        LinkedList<String> linkedList = new LinkedList<String>();
-        linkedList.insert("a");
-        linkedList.insert("b");
-        linkedList.insert("c");
-        System.out.println( linkedList.includes("b"));
-        System.out.println( linkedList.includes("z"));
-        System.out.println( linkedList.toString());
-        linkedList.append("5");
-linkedList.insertBefore("5","4");
-        System.out.println( linkedList.toString());
-linkedList.insertAfter("a","3");
-        System.out.println( linkedList.toString());
 
-        System.out.println(linkedList.kthFromEnd(2));
+        //----------------------------ch8----------------
+
+        LinkedList firstList = new LinkedList();
+        firstList.append(1);
+        firstList.append(2);
+        firstList.append(3);
+
+        LinkedList secondList = new LinkedList();
+        secondList.append(5);
+        secondList.append(4);
+        secondList.append(6);
+
+        LinkedList linkedList2 = new LinkedList();
+        linkedList2 = linkedList2.zipList(firstList,secondList);
+        System.out.println(linkedList2);
     }
 
 }
