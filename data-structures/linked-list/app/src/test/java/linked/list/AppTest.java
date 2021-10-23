@@ -73,4 +73,13 @@ class AppTest {
         assertTrue(linkedList.includes(5) , "Return true if it finds the test element");
 
     }
+    @Test void kthTest(){
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        linkedList.insert(1);
+        linkedList.insert(1);
+        linkedList.insert(1);
+
+assertEquals("{1}",linkedList.kthFromEnd(0));
+    }
+
 }

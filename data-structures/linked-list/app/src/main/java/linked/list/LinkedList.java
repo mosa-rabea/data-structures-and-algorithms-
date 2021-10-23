@@ -90,4 +90,29 @@ public class LinkedList<T> {
         }
 
     }
+    public String kthFromEnd(int newValue) {
+
+        if (head == null) return "Exception";
+
+        Node current = head;
+        int count = 0;
+        while (current.next != null) {
+            current = current.next;
+            count++;
+        }
+
+        if (newValue > count || newValue < 0) {
+            return "Exception";
+        } else {
+            current = head;
+            for (int i = 0; i <= count-newValue; i++) {
+                if (i == count-newValue) {
+                    return "{"+current.value+"}";
+                }
+                current = current.next;
+            }
+        }
+        return "Exception";
+    }
+
 }
