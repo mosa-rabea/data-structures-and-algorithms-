@@ -24,5 +24,8 @@ linkedList.insertBefore("5","4");
         System.out.println( linkedList.toString());
 linkedList.insertAfter("a","3");
         System.out.println( linkedList.toString());
+
+        System.out.println(linkedList.kthFromEnd(2));
     }
+
 }
