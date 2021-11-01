@@ -4,6 +4,11 @@
 package trees;
 
 import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
@@ -32,15 +37,15 @@ class AppTest {
 
 
 
-//        assertEquals("[1, 2, 3]",binary2.preOrder(binary2.root).toString());
-//
-//
-//
-//        assertEquals("[2, 1, 3]",binary2.inOrder(binary2.root).toString());
-//
-//
-//
-//        assertEquals("[2, 3, 1]",binary2.postOrder(binary2.root).toString());
+        assertEquals("[1, 2, 3]",binary2.preOrder(binary2.root).toString());
+
+
+
+        assertEquals("[2, 1, 3]",binary2.inOrder(binary2.root).toString());
+
+
+
+        assertEquals("[2, 3, 1]",binary2.postOrder(binary2.root).toString());
 
 
 
@@ -54,7 +59,11 @@ class AppTest {
         assertEquals(0,binary1.maximum());
 
 
-
+//-----------------------ch17---------------------//
+        assertEquals("[1, 2, 3]",App.breadthFirst(binary2).toString());
 
     }
+
+
+
 }
