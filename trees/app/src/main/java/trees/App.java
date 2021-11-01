@@ -3,9 +3,32 @@
  */
 package trees;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
+    }
+    
+    public static ArrayList<Integer> breadthFirst(BinaryTree<Integer> tree) {
+        ArrayList<Integer> values =new ArrayList<Integer>();
+        Queue<Node> breadthFirst = new LinkedList<>();
+        if (tree.root != null) {
+            breadthFirst.add(tree.root);
+            while (!breadthFirst.isEmpty()) {
+                Node node = breadthFirst.remove();
+                values.add((Integer)node.value);
+                if (node.leftChild != null) {
+                    breadthFirst.add(node.leftChild);
+                }
+                if (node.rightChild != null) {
+                    breadthFirst.add(node.rightChild);
+                }
+            }
+        }
+        return values;
     }
 
     public static void main(String[] args) {
@@ -21,8 +44,8 @@ public class App {
 
         test.add(1);
 
-        System.out.println(test.contains(3,test.root));
-        System.out.println(test.inOrder(test.root).toString());
+//        System.out.println(test.contains(3,test.root));
+//        System.out.println(test.inOrder(test.root).toString());
 
 
 
@@ -33,6 +56,23 @@ public class App {
         maxTest.root.leftChild.leftChild=new Node<>(1);
         maxTest.root.leftChild.rightChild=new Node<>(3);
 
-        System.out.println(maxTest.maximum());
+//        System.out.println(maxTest.maximum());
+
+//----------------------ch17-----------------------------------------------//
+
+        BinarySearchTree<Integer> breadthTest = new BinarySearchTree<>(5);
+        breadthTest.root.leftChild=new Node<>(8);
+        breadthTest.root.rightChild=new Node<>(10);
+        breadthTest.root.leftChild.leftChild=new Node<>(1);
+        breadthTest.root.leftChild.rightChild=new Node<>(3);
+
+        System.out.println(breadthFirst(breadthTest));
+
     }
+
+
+
+
+
+
 }
