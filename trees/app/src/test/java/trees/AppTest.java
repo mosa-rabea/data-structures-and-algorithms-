@@ -49,19 +49,49 @@ class AppTest {
 
 
 
-        // -----------------ch16-------------//
-
-        //  binary tree
-        assertEquals(3,binary2.maximum());
 
 
-        // empty tree
-        assertEquals(0,binary1.maximum());
 
 
-//-----------------------ch17---------------------//
+
+
+    }
+
+    // -----------------ch16-------------//
+@Test void maximumTest(){
+    BinaryTree<Integer> binary1 = new BinaryTree<>();
+    assertNull(binary1.root);
+
+
+
+    BinaryTree<Integer> binary2 = new BinaryTree<>(1);
+    assertEquals(1,binary2.root.value);
+
+
+    binary2.root.leftChild = new Node<>(2);
+    binary2.root.rightChild = new Node<>(3);
+    //  binary tree
+    assertEquals(3,binary2.maximum());
+
+
+    // empty tree
+    assertEquals(0,binary1.maximum());
+
+}
+
+
+
+    //-----------------------ch17---------------------//
+    @Test void breadthFirstTest(){
+        BinaryTree<Integer> binary2 = new BinaryTree<>(1);
+        assertEquals(1,binary2.root.value);
+
+
+        binary2.root.leftChild = new Node<>(2);
+        binary2.root.rightChild = new Node<>(3);
+
+
         assertEquals("[1, 2, 3]",App.breadthFirst(binary2).toString());
-
     }
 
 

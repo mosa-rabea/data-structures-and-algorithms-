@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="trees.AppTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-01T18:26:59" hostname="mosa-HP-250-G7-Notebook-PC" time="0.023">
+<testsuite name="trees.AppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-11-02T14:01:58" hostname="mosa-HP-250-G7-Notebook-PC" time="0.031">
   <properties/>
-  <testcase name="BinaryTreeTest()" classname="trees.AppTest" time="0.021"/>
+  <testcase name="BinaryTreeTest()" classname="trees.AppTest" time="0.024"/>
+  <testcase name="breadthFirstTest()" classname="trees.AppTest" time="0.002"/>
   <testcase name="appHasAGreeting()" classname="trees.AppTest" time="0.001"/>
+  <testcase name="maximumTest()" classname="trees.AppTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
