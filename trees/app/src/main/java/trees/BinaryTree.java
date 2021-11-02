@@ -1,5 +1,10 @@
 package trees;
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class BinaryTree <T>{
     Node<T> root;
@@ -52,6 +57,26 @@ public class BinaryTree <T>{
         return this.postOrderList;
     }
 
+
+    public  ArrayList<Integer> breadthFirst(BinaryTree<Integer> tree) {
+        ArrayList<Integer> values =new ArrayList<Integer>();
+        Queue<Node> breadthFirst = new LinkedList<>();
+        if (tree.root != null) {
+            breadthFirst.add(tree.root);
+            while (!breadthFirst.isEmpty()) {
+                Node node = breadthFirst.remove();
+                values.add((Integer)node.value);
+                if (node.leftChild != null) {
+                    breadthFirst.add(node.leftChild);
+                }
+                if (node.rightChild != null) {
+                    breadthFirst.add(node.rightChild);
+                }
+            }
+        }
+        return values;
+    }
+
     public Integer maximum(){
         Integer max = 0;
         ArrayList<T> list = preOrder(this.root);
@@ -62,4 +87,9 @@ public class BinaryTree <T>{
         }
         return max;
     }
+
+
+
+
+
 }

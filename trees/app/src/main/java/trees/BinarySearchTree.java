@@ -50,4 +50,8 @@ public class BinarySearchTree<T> extends BinaryTree<T>{
             }}
         return false;
     }
+
+    public int breadthFirst() {
+        return 0;
+    }
 }
