@@ -49,4 +49,26 @@ class AppTest {
 
 
     }
+    @Test void quickSort() {
+
+
+        // Reverse-sorted
+        int[]  ReverseSortedArr = {20,18,12,8,5,-2};
+
+        assertEquals("[-2, 5, 8, 12, 18, 20]", Arrays.toString(App.quickSort(ReverseSortedArr, 0, ReverseSortedArr.length-1)));
+
+        // Few uniques array
+        int[]  FewUniquesArr = {5,12,7,5,5,7};
+        assertEquals("[5, 5, 5, 7, 7, 12]", Arrays.toString(App.quickSort(FewUniquesArr, 0, FewUniquesArr.length-1)));
+
+        // Nearly-sorted array
+        int[]  NearlySortedArr = {2,3,5,7,13,11};
+        assertEquals("[2, 3, 5, 7, 11, 13]", Arrays.toString(App.quickSort(NearlySortedArr, 0, NearlySortedArr.length-1)));
+
+
+
+    }
+
+
+
 }
