@@ -15,6 +15,7 @@
 | tree-fizz-buzz           | [tree-fizz-buzz](data-structures/tree-fizz-buzz/tree-fizz-buzz.md)             |
 | hashtable          | [hashtable](hashtable/README.md)             |
 | hashmap-repeated-word  | [hashmap-repeated-word](hashmap-repeated-word/README.md)             |
+| Graph  | [Graph](data-structures/graph/README.md)             |
 
 
 
