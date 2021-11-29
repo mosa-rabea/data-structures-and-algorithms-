@@ -90,4 +90,28 @@ class AppTest {
         assertNull(emptyGraph.getNodes());
 
     }
+
+    @Test void breadthFirstTest(){
+        Graph<String> breadthFirstTest1 = new Graph<>();
+        Node a = breadthFirstTest1.addNode("A");
+        Node b =  breadthFirstTest1.addNode("b");
+        Node c = breadthFirstTest1.addNode("c");
+        Node d = breadthFirstTest1.addNode("d");
+
+        breadthFirstTest1.addEdge(a,b,true);
+        breadthFirstTest1.addEdge(b,c,true);
+        breadthFirstTest1.addEdge(c,d,true);
+        breadthFirstTest1.addEdge(b,d,true);
+
+        List<Node<String>> result = new ArrayList<>();
+        result.add(a);
+
+        result.add(b);
+        result.add(c);
+        result.add(d);
+
+
+        assertEquals(result,breadthFirstTest1.breadthFirst(a));
+
+    }
 }
