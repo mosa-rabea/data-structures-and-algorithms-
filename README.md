@@ -17,5 +17,5 @@
 | hashmap-repeated-word  | [hashmap-repeated-word](hashmap-repeated-word/README.md)             |
 | Graph  | [Graph](data-structures/graph/README.md)             |
 | graph-breadth-first  | [graph-breadth-first](data-structures/graph-breadth-first/README.md)             |
-
+| graph-business-trip  | [graph-business-trip](data-structures/graph-business-trip/README.md)             |
 
