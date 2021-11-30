@@ -114,4 +114,45 @@ class AppTest {
         assertEquals(result,breadthFirstTest1.breadthFirst(a));
 
     }
+
+    @Test void depthFirstTest(){
+        Graph<String> graph = new Graph<>();
+
+        Node a = graph.addNode("A");
+        Node b =  graph.addNode("B");
+        Node c = graph.addNode("C");
+        Node d = graph.addNode("D");
+        Node e = graph.addNode("E");
+        Node f = graph.addNode("F");
+        Node g = graph.addNode("G");
+        Node h = graph.addNode("H");
+
+
+        graph.addEdge(a,b,true);
+        graph.addEdge(a,d,true);
+        graph.addEdge(b,c,true);
+        graph.addEdge(b,d,true);
+        graph.addEdge(c,g,true);
+        graph.addEdge(d,e,true);
+        graph.addEdge(d,h,true);
+        graph.addEdge(d,f,true);
+        graph.addEdge(h,f,true);
+
+
+        List<Node<String>> result = new ArrayList<>();
+        result.add(a);
+        result.add(b);
+        result.add(c);
+        result.add(g);
+        result.add(d);
+        result.add(e);
+        result.add(h);
+        result.add(f);
+
+        assertEquals(result , graph.depthFirst(a));
+
+
+
+    }
+
 }
